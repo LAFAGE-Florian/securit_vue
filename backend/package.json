@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "es6": "^0.0.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "prisma": "^6.2.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.5"
+  }
+}

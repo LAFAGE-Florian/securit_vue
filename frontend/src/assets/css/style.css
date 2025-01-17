@@ -1,0 +1,148 @@
+/* style.css */
+
+
+/* style de base*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Conteneur principal */
+.login-container {
+  width : 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color : #ffff;
+  border-radius: 10px;
+  align-items: center;
+  /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)*/
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  text-align: left; /* labels are left-aligned */
+  width: 100%;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-4 {
+  margin-bottom: 40px;
+}
+
+/* Titre */
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+/* Bars de saisies */
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #625bff;
+  border-radius: 8px;
+  margin-bottom: 2Opx;
+  padding: 8px;
+}
+
+.input-container .icon {
+  color: #625bff;
+  font-size: 2Opx;
+  margin-right: 20px;
+}
+
+.input-container input {
+  border: none; 
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+  padding: 8px;
+  color: #333;
+}
+
+.input-container input::placeholder {
+  color: #bfbfbf;
+}
+
+.input-container:focus-within {
+  box-shadow: 0 0 5px #4f46e5;
+}
+
+
+/* Bouton Connexion */
+.large-button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #ccc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: not-allowed;
+  padding: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-submit:hover {
+  background-color: #504ccc;
+}
+
+.register {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.register a {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.register a:hover {
+  text-decoration: none;
+}
+
+/* Enabled state for the button */
+form:valid .large-button, .confirm {
+  background-color: #007bff; /* Active color */
+  cursor: pointer;
+}
+
+form:valid .large-button:hover {
+  background-color: #ccc;
+}
+.connexion {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+.error {
+  color: red;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
